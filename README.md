@@ -2,6 +2,12 @@
 
 Embed a cover image (`.jpg`, `.jpeg` or `.png`) as album art into the audio files of a folder. Works with **FLAC**, **MP3**, **M4A/MP4** and **AAC**, and replaces any cover art already there. Use it from the command line or the Electron desktop app. No account, API key or network access needed.
 
+## Demo
+
+**[▶ Watch: Audio Album Art Embedder: Add Cover Art to Your Music in Seconds](https://www.loom.com/share/1372a2ca701842a1982d7209af099c70)**
+
+See the desktop app turn a song with no artwork into one with its cover. Choose the folder, check the auto-detected cover image, and click Embed cover art. The video shows the file before and after, so you can see the thumbnail change. It works with FLAC, MP3, M4A/MP4 and AAC files.
+
 ## Features
 
 - **Wide format support:** `.flac`, `.mp3`, `.m4a`, `.mp4` and `.aac`.
@@ -163,12 +169,83 @@ Audio-Album-Art-Embeder-App/
 │   ├── cli.py
 │   ├── core.py
 │   └── requirements.txt
-├── Python-Audio-Album-Art-Embedder
-│   ├── .gitignore
-│   ├── launch.json
-│   ├── main.py
-│   ├── README.md
-│   └── requirements.txt
+├── docs
+│   └── product
+│       └── 10-launch
+│           └── demo
+│               ├── audio
+│               │   ├── durations.json
+│               │   ├── s01.wav
+│               │   ├── s02.wav
+│               │   ├── s03.wav
+│               │   ├── s04.wav
+│               │   ├── s05.wav
+│               │   ├── s06.wav
+│               │   └── s07.wav
+│               ├── automation
+│               │   ├── build_clips.py
+│               │   ├── explorer-demo.ps1
+│               │   ├── normalize.sh
+│               │   ├── package-lock.json
+│               │   ├── package.json
+│               │   ├── prepare-demo-folder.py
+│               │   ├── pw-demo-helpers.mjs
+│               │   ├── record-app.mjs
+│               │   └── tts_kokoro.py
+│               ├── captions
+│               │   ├── audio-album-art-embedder-demo-v1.0.0.srt
+│               │   └── audio-album-art-embedder-demo-v1.0.0.vtt
+│               ├── exports
+│               │   ├── tmp
+│               │   │   ├── meta.txt
+│               │   │   ├── seg0-v.mp4
+│               │   │   ├── seg0.mp4
+│               │   │   ├── seg1-v.mp4
+│               │   │   ├── seg1.mp4
+│               │   │   ├── seg2-v.mp4
+│               │   │   ├── seg2.mp4
+│               │   │   ├── seg3-v.mp4
+│               │   │   ├── seg3.mp4
+│               │   │   └── title.mp4
+│               │   ├── chapters.txt
+│               │   └── timeline.json
+│               ├── recordings
+│               │   ├── explorer
+│               │   │   ├── a0.5.png
+│               │   │   ├── a3.png
+│               │   │   ├── a9.png
+│               │   │   ├── after-markers.json
+│               │   │   ├── after-raw.mp4
+│               │   │   ├── after.mp4
+│               │   │   ├── b3.png
+│               │   │   ├── before-markers.json
+│               │   │   ├── before-raw.mp4
+│               │   │   ├── before-still.png
+│               │   │   ├── before.mp4
+│               │   │   └── test-before.png
+│               │   ├── j1-app
+│               │   │   ├── markers.json
+│               │   │   └── page@6f05da3048443d88cd8ac91b2e320916.webm
+│               │   ├── endcard-markers.json
+│               │   └── endcard.mp4
+│               ├── screenshots
+│               │   ├── 01-app-start-no-folder.png
+│               │   ├── 02-cover-detected.png
+│               │   ├── 03-embed-done.png
+│               │   ├── 04-explorer-before.png
+│               │   └── 05-explorer-after.png
+│               ├── thumbnail
+│               │   ├── alt-text.md
+│               │   ├── end.png
+│               │   ├── thumbnail-1280x720.png
+│               │   └── title.png
+│               ├── demo-plan.md
+│               ├── edit.json
+│               ├── feature-map.md
+│               ├── journeys.md
+│               ├── qc-report.md
+│               ├── scenes.json
+│               └── script.md
 ├── scripts
 │   ├── build-all.ps1
 │   ├── build-all.sh

@@ -1,0 +1,20 @@
+{
+  "name": "audio-album-art-embedder-demo-v1.0.0",
+  "size": "1920x1080", "fps": 30,
+  "segments": [
+    { "video": "recordings/explorer/before.mp4", "markers": "recordings/explorer/before-markers.json" },
+    { "video": "recordings/j1-app/page@6f05da3048443d88cd8ac91b2e320916.webm", "markers": "recordings/j1-app/markers.json", "trimStart": 0.9 },
+    { "video": "recordings/explorer/after.mp4", "markers": "recordings/explorer/after-markers.json" },
+    { "video": "recordings/endcard.mp4", "markers": "recordings/endcard-markers.json" }
+  ],
+  "audioDir": "audio",
+  "voiceLead": 0.3,
+  "titleCard": "thumbnail/title.png", "titleSeconds": 3,
+  "chapters": [
+    { "title": "Before: no cover art", "scene": "s01" },
+    { "title": "Embed the cover in the app", "scene": "s02" },
+    { "title": "After: cover art shows", "scene": "s06" },
+    { "title": "Wrap-up", "scene": "s07" }
+  ],
+  "exportsDir": "exports"
+}

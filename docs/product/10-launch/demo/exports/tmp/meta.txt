@@ -1,0 +1,26 @@
+;FFMETADATA1
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=3400
+title=Introduction
+[CHAPTER]
+TIMEBASE=1/1000
+START=3400
+END=15818
+title=Before: no cover art
+[CHAPTER]
+TIMEBASE=1/1000
+START=15818
+END=47000
+title=Embed the cover in the app
+[CHAPTER]
+TIMEBASE=1/1000
+START=47000
+END=56800
+title=After: cover art shows
+[CHAPTER]
+TIMEBASE=1/1000
+START=56800
+END=65500
+title=Wrap-up

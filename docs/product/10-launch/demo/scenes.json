@@ -1,0 +1,13 @@
+{
+  "app": "Audio Album Art Embedder",
+  "version": "1.0.0",
+  "scenes": [
+    {"id": "s01", "label": "Before", "voiceover": "Here's a song I downloaded. Mariah Carey, Bye Bye. And look at the file in Explorer. No cover art. Just a plain icon. Let's fix that."},
+    {"id": "s02", "label": "Open the app", "voiceover": "I'll open Audio Album Art Embedder, and choose the folder with my music."},
+    {"id": "s03", "label": "Cover detected", "voiceover": "It finds the song, and it spots the cover image on its own. There's the preview. If it picked the wrong one, I can choose a different image."},
+    {"id": "s04", "label": "Embed", "voiceover": "Everything's ticked, so I just click, Embed cover art."},
+    {"id": "s05", "label": "Done", "voiceover": "And that's it. One of one file updated. Just keep in mind, the file is changed in place, so keep a backup if it matters."},
+    {"id": "s06", "label": "After", "voiceover": "Back in Explorer, it's the same file, and now the cover shows up as its thumbnail. Before, and after."},
+    {"id": "s07", "label": "End", "voiceover": "It works with MP3, FLAC, M4A and AAC files. Try it on a copy of your own music folder."}
+  ]
+}

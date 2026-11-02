@@ -1,0 +1,6 @@
+- thumbnail-1280x720.png: "Before and after in Windows Explorer: an MP3 shown with a plain traffic-cone icon on the left, and the same MP3 showing its album cover as a thumbnail on the right. Title: Embed cover art into your music, Audio Album Art Embedder v1.0.0."
+- screenshots/01-app-start-no-folder.png: "Audio Album Art Embedder on first start with 'No folder selected' and a Choose folder button."
+- screenshots/02-cover-detected.png: "The app lists Mariah Carey - Bye Bye.mp3, ticked, with the cover image cover.png previewed and the Embed cover art button."
+- screenshots/03-embed-done.png: "The file row shows Done, the progress bar is full, and the summary reads 1 of 1 file(s) updated."
+- screenshots/04-explorer-before.png: "Explorer with the MP3 shown as a generic icon, labeled BEFORE - no cover art."
+- screenshots/05-explorer-after.png: "Explorer with the same MP3 now showing the cover art as its thumbnail, labeled AFTER, with a small BEFORE inset."
