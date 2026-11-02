@@ -1,0 +1,72 @@
+{
+  "name": "audio-album-art-embedder",
+  "productName": "Audio Album Art Embedder",
+  "version": "1.0.0",
+  "description": "Embed a cover image as album art into FLAC, MP3, M4A/MP4 and AAC files",
+  "main": "out/main.js",
+  "scripts": {
+    "build": "tsc && node scripts/copy-static.js",
+    "typecheck": "tsc --noEmit",
+    "start": "npm run build && electron .",
+    "dist": "npm run build && electron-builder",
+    "dist:win": "npm run build && electron-builder --win",
+    "dist:mac": "npm run build && electron-builder --mac",
+    "dist:linux": "npm run build && electron-builder --linux"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8",
+    "typescript": "^7.0.2"
+  },
+  "build": {
+    "appId": "com.example.audioalbumartembedder",
+    "productName": "Audio Album Art Embedder",
+    "directories": {
+      "output": "dist",
+      "buildResources": "assets"
+    },
+    "files": [
+      "out/**/*",
+      "assets/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "../build/backend",
+        "to": "backend"
+      }
+    ],
+    "win": {
+      "icon": "assets/icon.ico",
+      "target": [
+        "nsis"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    },
+    "mac": {
+      "icon": "assets/icon.png",
+      "target": [
+        "dmg"
+      ],
+      "category": "public.app-category.music"
+    },
+    "linux": {
+      "icon": "assets/icons",
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "category": "AudioVideo",
+      "maintainer": "Elmor Cabalfin <codewithelmor@gmail.com>",
+      "synopsis": "Embed cover art into audio files"
+    }
+  },
+  "author": {
+    "name": "Elmor Cabalfin",
+    "email": "codewithelmor@gmail.com"
+  },
+  "homepage": "https://github.com/example/audio-album-art-embedder"
+}

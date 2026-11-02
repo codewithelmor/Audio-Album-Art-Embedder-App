@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Audio Album Art Embedder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Audio Album Art Embedder</h1>
+      <p class="sub">Embed a cover image into your FLAC, MP3, M4A/MP4 and AAC files. Any existing cover art is replaced.</p>
+    </header>
+
+    <section class="row">
+      <span id="folder" class="path" title=""></span>
+      <button id="folderBtn" class="primary">Choose folder…</button>
+    </section>
+    <p id="message" class="message" hidden></p>
+
+    <section id="listSection" hidden>
+      <div class="cover-row">
+        <img id="coverPreview" alt="Cover preview" hidden>
+        <div id="coverPlaceholder" class="cover-placeholder">No cover</div>
+        <div class="cover-info">
+          <h2>Cover image</h2>
+          <span id="coverPath" class="path" title=""></span>
+          <div>
+            <button id="imageBtn">Choose image…</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="list-head">
+        <div>
+          <h2>Audio files</h2>
+          <span id="listCount" class="sub"></span>
+        </div>
+        <label class="check"><input id="selectAll" type="checkbox" checked> Select all</label>
+      </div>
+      <ul id="files"></ul>
+
+      <div class="actions">
+        <button id="embedBtn" class="primary">Embed cover art</button>
+        <button id="cancelBtn" hidden>Cancel</button>
+      </div>
+    </section>
+
+    <section id="progressSection" hidden>
+      <div class="bar"><div id="overallBar"></div></div>
+      <p id="overallText" class="sub"></p>
+      <details>
+        <summary>Log</summary>
+        <pre id="log"></pre>
+      </details>
+      <div id="summary" hidden>
+        <p id="summaryText"></p>
+        <ul id="failed"></ul>
+        <button id="openBtn" class="primary">Open folder</button>
+      </div>
+    </section>
+  </main>
+  <script src="renderer.js"></script>
+</body>
+</html>
