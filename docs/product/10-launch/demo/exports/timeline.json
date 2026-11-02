@@ -1,0 +1,34 @@
+{
+  "video": "audio-album-art-embedder-demo-v1.0.0.mp4",
+  "duration": 65.5,
+  "scenes": [
+    {
+      "id": "s01",
+      "start": 3.7
+    },
+    {
+      "id": "s02",
+      "start": 16.119
+    },
+    {
+      "id": "s03",
+      "start": 22.043
+    },
+    {
+      "id": "s04",
+      "start": 32.048
+    },
+    {
+      "id": "s05",
+      "start": 35.712
+    },
+    {
+      "id": "s06",
+      "start": 47.3
+    },
+    {
+      "id": "s07",
+      "start": 57.1
+    }
+  ]
+}

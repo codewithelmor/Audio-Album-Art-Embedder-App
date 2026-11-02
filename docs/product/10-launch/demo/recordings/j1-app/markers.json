@@ -1,0 +1,29 @@
+{
+  "clock": "seconds since page creation",
+  "scenes": [
+    {
+      "id": "s02",
+      "start": 1.219,
+      "minSeconds": 5.91,
+      "end": 7.143
+    },
+    {
+      "id": "s03",
+      "start": 7.143,
+      "minSeconds": 10.000000000000002,
+      "end": 17.148
+    },
+    {
+      "id": "s04",
+      "start": 17.148,
+      "minSeconds": 3.66,
+      "end": 20.812
+    },
+    {
+      "id": "s05",
+      "start": 20.812,
+      "minSeconds": 10.63,
+      "end": 31.451
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+WEBVTT
+
+00:00:03.700 --> 00:00:05.761
+Here's a song I downloaded.
+
+00:00:05.811 --> 00:00:07.482
+Mariah Carey, Bye Bye.
+
+00:00:07.532 --> 00:00:10.063
+And look at the file in Explorer.
+
+00:00:10.113 --> 00:00:12.487
+No cover art. Just a plain icon.
+
+00:00:12.537 --> 00:00:13.710
+Let's fix that.
+
+00:00:16.119 --> 00:00:20.829
+I'll open Audio Album Art Embedder, and
+choose the folder with my music.
+
+00:00:22.043 --> 00:00:25.755
+It finds the song, and it spots the cover
+image on its own.
+
+00:00:25.805 --> 00:00:27.031
+There's the preview.
+
+00:00:27.081 --> 00:00:30.843
+If it picked the wrong one, I can choose a
+different image.
+
+00:00:32.048 --> 00:00:35.208
+Everything's ticked, so I just click,
+Embed cover art.
+
+00:00:35.712 --> 00:00:38.377
+And that's it. One of one file updated.
+
+00:00:38.427 --> 00:00:44.142
+Just keep in mind, the file is changed in
+place, so keep a backup if it matters.
+
+00:00:47.300 --> 00:00:52.678
+Back in Explorer, it's the same file, and
+now the cover shows up as its thumbnail.
+
+00:00:52.728 --> 00:00:53.920
+Before, and after.
+
+00:00:57.100 --> 00:01:01.006
+It works with MP3, FLAC, M4A and AAC
+files.
+
+00:01:01.056 --> 00:01:04.920
+Try it on a copy of your own music folder.
+

@@ -1,0 +1,5 @@
+0:00 Introduction
+0:03 Before: no cover art
+0:16 Embed the cover in the app
+0:47 After: cover art shows
+0:57 Wrap-up
